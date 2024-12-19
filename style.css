@@ -19,6 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
  } 
 
  #navbar li
@@ -26,7 +27,7 @@
   
     list-style: none;
     padding: 0 20px;
-    
+    position: relative;
 
  }
 
@@ -40,15 +41,44 @@
     font-size: 16px;
     font-weight: 600; 
     color: #1a1a1a;
-
+    transition: 0.3s ease;
  } 
 
  #navbar li a:hover,
-
- #navbar li a.active
+ 
+#navbar li a.active
  {
-
-    transition: 0.3s ease;
+ 
     color: #088178;
  }
+ 
+  #navbar li a.active::after
   
+ , #navbar li a:hover::after
+  {
+
+   content:"";
+   width: 50%;
+   height: 2px;
+   background: #088178 ;
+   position: absolute;
+   bottom: -1px;
+   left: 20px;
+ } 
+
+ /* home */
+
+ #hero
+
+ {
+
+   background-image: url("img/tareq.png"); 
+   background-repeat: none; 
+   height: 900px;
+   width: 100%;
+   background-size: cover;
+   background-position: top 25% right 0;
+   padding:0 80px ;
+
+ }
+
