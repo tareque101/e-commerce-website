@@ -82,3 +82,26 @@
 
  }
 
+ #hero h4
+ { 
+   /* margin-top: 10px; */
+ padding-bottom: 5px;
+
+ }
+
+ #hero h1
+ {
+ color: #088178;
+
+ }
+
+#hero button{
+
+   background-image: url("img/button.png");
+   background-color: transparent;
+     color: #088178;
+     border: none;
+     padding: 14px 80px 14px 65px;
+}
+
+
