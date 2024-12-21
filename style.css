@@ -208,3 +208,58 @@
    background-color: #c66511;
    display: inline-block;
 }
+
+
+#product1
+{
+   text-align: center;
+} 
+
+#product1 .pro1
+{
+   width: 25%;
+   min-width: 250px;
+   padding: 10px 15px ;
+   border: 1px solid #cce7d0;
+   border-radius: 25px;
+   cursor: pointer;
+   box-shadow: 20px 20px 30px rgba(red, green, blue, alpha)
+   ;
+
+   margin: 15px 0px;
+   text-align: start;
+
+} 
+
+#product1 .pro1:hover
+{ 
+  
+   box-shadow: 15px 10px 10px rgb(0,0,0,0.06);
+    transition: 0.1s ease;
+} 
+
+
+#product1 .pro1 img{
+
+   width: 100%;
+   border-radius: 20px;
+
+}
+
+ #product1 .pro1 .description
+ {
+   text-align: start;
+ } 
+
+ #product1 .pro1 .description span
+ {
+   color: #606063;
+   font-size: 12px;
+ }
+
+ #product1 .pro1 .description h5
+ {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+ }
